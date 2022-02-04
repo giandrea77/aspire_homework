@@ -1,6 +1,14 @@
 # Subdocument array mutation
 
-### Test 
+### Initial setup
+```
+git clone https://github.com/giandrea77/aspire_homework.git
+cd generateUpdateStatement
+npm install
+```
+
+
+### Test using API
 
 To set an environment variable in Windows:
 
@@ -18,3 +26,11 @@ To start the sample:
 ```
 npm run start
 ```
+
+### Test using jest framework
+```
+npm test
+```
+
+### Quick history
+

@@ -4,11 +4,15 @@
   "description": "Backend take home: subdocument array mytation - prompt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --runInBand ./test"
   },
   "author": "me@andreagirardi.it",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
   }
 }
